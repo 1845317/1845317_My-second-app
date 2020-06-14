@@ -113,6 +113,12 @@ namespace _1845317_My_second_app
             frm.ShowDialog();
                 
         }
+
+        private void btnOperation_Click(object sender, EventArgs e)
+        {
+            FrmOperators frm = new FrmOperators();
+            frm.ShowDialog();
+        }
     }
     }
 

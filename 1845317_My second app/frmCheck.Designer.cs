@@ -49,7 +49,7 @@
             // 
             this.btnShow.Location = new System.Drawing.Point(50, 37);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(95, 35);
+            this.btnShow.Size = new System.Drawing.Size(354, 62);
             this.btnShow.TabIndex = 1;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
