@@ -53,6 +53,7 @@
             this.btnShow.TabIndex = 1;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // chkCoffe
             // 
@@ -67,7 +68,7 @@
             // chkDonut
             // 
             this.chkDonut.AutoSize = true;
-            this.chkDonut.Location = new System.Drawing.Point(50, 176);
+            this.chkDonut.Location = new System.Drawing.Point(46, 176);
             this.chkDonut.Name = "chkDonut";
             this.chkDonut.Size = new System.Drawing.Size(68, 21);
             this.chkDonut.TabIndex = 3;
@@ -77,7 +78,7 @@
             // chkBrowne
             // 
             this.chkBrowne.AutoSize = true;
-            this.chkBrowne.Location = new System.Drawing.Point(50, 215);
+            this.chkBrowne.Location = new System.Drawing.Point(46, 215);
             this.chkBrowne.Name = "chkBrowne";
             this.chkBrowne.Size = new System.Drawing.Size(77, 21);
             this.chkBrowne.TabIndex = 4;
