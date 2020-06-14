@@ -106,6 +106,13 @@ namespace _1845317_My_second_app
             frm.ShowDialog();
 
         }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            frmCheck frm = new frmCheck();
+            frm.ShowDialog();
+                
+        }
     }
     }
 
